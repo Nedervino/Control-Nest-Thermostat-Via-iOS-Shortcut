@@ -1,6 +1,6 @@
 # iOS Shortcut for Controlling Nest Thermostat
 
-This repository contains an [https://support.apple.com/guide/shortcuts/welcome/ios](iOS Shortcut) that allows you to automatically adjust the temperature of your Nest thermostat to a specified temperature, and is compatible with any generation of Nest Thermostat (without requiring a separate hub or Matter support). It enables Nest automations not currently supported via Apple's current Home automation, such as turning off your Nest Thermostat whenever you leave the house.
+This repository contains an [iOS Shortcut](https://support.apple.com/guide/shortcuts/welcome/ios) that allows you to automatically adjust the temperature of your Nest thermostat to a specified temperature, and is compatible with any generation of Nest Thermostat (without requiring a separate hub or Matter support). It enables Nest automations not currently supported via Apple's current Home automation, such as turning off your Nest Thermostat whenever you leave the house.
 
 Given [all Nest thermostats except for the 2020 model are incompatible with Apple's Home automation suite / Homekit](https://9to5google.com/2023/05/11/nest-thermostat-homekit-matter-set-up/), this iOS shortcut uses a workaround by directly interacting with Google's Device Access API for Nest. As this API is secured using OAuth2, you will first need to register for Google Nest developer access and go through a few developer-oriented steps before the Shortcut can be used. 
 
